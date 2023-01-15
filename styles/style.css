@@ -63,7 +63,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+  /* feature section */
   .feature {
     display: flex;
     margin: 50px 200px;
@@ -86,29 +86,7 @@
     width: 40%;
     margin: 5%;
   }
-  
-  /* features styles
-  .feature{
-      display: grid;
-      grid-template-columns: repeat(3 , 1fr);
-      margin-bottom: 30px;
-  }
-  .features{
-      display: flex;
-  }
-  .feature-img{
-      float: left;
-      width: 25%;
-      padding: 10px;
-      height: 56px;
-  }
-  
-  .feature{
-      display: flex;
-      gap: 24px;
-  } */
-  
-  /* about section styles */
+/* about section */
   .about {
     display: flex;
     align-items: center;
@@ -189,6 +167,9 @@
     border: 1px solid #ff900e;
     border-radius: 8px;
   }
+  .plan:hover{
+    box-shadow: 0 3px 10px rgba(130, 9, 9, 0.2);
+  }
   .plan-title {
     font-weight: 600;
     font-size: 45px;
@@ -236,6 +217,7 @@
     padding: 30px;
     background: #fff4e7;
     border-radius: 8px;
+    margin-bottom: 200px;
   }
   
 
